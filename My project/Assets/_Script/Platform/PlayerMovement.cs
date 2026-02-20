@@ -24,5 +24,6 @@ public class PlayerMovement : MonoBehaviour
     public void Movement() 
     {
         transform.Translate(Vector3.right * speed * _oldInput.horizontal * Time.deltaTime);
+
     }
 }
